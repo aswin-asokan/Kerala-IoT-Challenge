@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Kerala IoT Challenge
 
-You can use the [editor on GitHub](https://github.com/aswin-asokan/Kerala-IoT/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### About Kerala IoT Challenge
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+__Foxlab Makerspace__ in association with __GTech - Group of Technology Companies in Kerala__ launched the prestigious program __“Kerala IoT Challenge 2021”__, embracing the vision of 5000 IoT-enabled students from Kerala, hosting on the µLearn platform.   
+__Kerala IoT Challenge__ is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with level 1.
 
-### Markdown
+### About Me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aswin-asokan/Kerala-IoT/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Hi everyone, I'm Aswin Asokan. I'm pursuing my diploma in computer engineering from the Government Polytechnic Kalamassery. I'm here to improve what I know and also to explore the vast implementation of IoT-based products.
