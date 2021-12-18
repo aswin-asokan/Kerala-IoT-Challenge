@@ -50,4 +50,4 @@ _Similar to experiment 1 but here we use 3 LEDs instead of 1 to implement a traf
 * Breadboard*1
 * Breadboard jumper wires
 ### Circut:
-![Expriment 2](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit2.png)
+![Expriment 2](https://aswin-asokan.github.io/Kerala-IoT-Challenge/blob/gh-pages/files/level1/images/Circuit2.png)
