@@ -1,15 +1,17 @@
 # Kerala IoT Challenge Level 1
 ## Experiment 1 : Hello World LED Blinking
 _This is just a basic arduino experiment to blink a LED with a time interval of 1 second._
-### Components Required :   
+### Components Used :   
 * Arduino Uno Board
 * USB Cable
 * LED (Any Color) x 1 Nos
 * 220 OHM Resistor x 1 Nos
 * Breadboard
 * Jumper Wires (Male to Male ) x 2 Nos
+ 
 ### Circuit Diagram :
 ![Expriment 1](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit1.png)
+
 ### Code :
 
 ```
@@ -40,7 +42,7 @@ _Even though it was just a basic experiment I was excited to do it as it was my 
 
 ## Experiment 2 : Traffic Light
 _Similar to experiment 1 but here we use 3 LEDs instead of 1 to implement a traffic light_   
-### Components Required:
+### Components Used:
 * Arduino board 
 * USB cable 
 * Red M5 LED x 1
@@ -49,8 +51,10 @@ _Similar to experiment 1 but here we use 3 LEDs instead of 1 to implement a traf
 * 220Ω resistor x 1 
 * Breadboard
 * Breadboard jumper wires
+
 ### Circut:
 ![Expriment 2](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit2.png)
+
 ### Code :
 
 ```
@@ -88,9 +92,60 @@ void loop()
 ### Video :
 
 <iframe width="352" height="240"
-src="https://user-images.githubusercontent.com/86108610/146646359-c767ce5a-3f04-4c28-bc8e-ce322555bd8f.mp4"
+src="https://user-images.githubusercontent.com/86108610/146650467-6e154c1d-a4ce-4963-b868-7a61ae89ded7.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+
+## Experiment 3 : LED Chasing Effect
+_In this experiment we create a program to simulate LED chasing effect_
+### Components Used :   
+* LED Green x 3
+* LED Red x 3
+* Arduino board 
+* 220Ω resistor x 2
+* Breadboard 
+* USB cable
+* Breadboard jumper wires
+
+### Circuit :
+![Expriment 3](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit3.png)
+
+### Code :
+
+```
+#define BASE 2 //define pin 2 as I/O for first LED
+#define NUM 6 // number of LEDs
+void setup()
+{
+  for(int i = BASE;i < BASE + NUM;i++)
+  {
+    pinMode(i, OUTPUT); //set I/O pins as Output
+  }
+}
+void loop()
+{
+  for(int i = BASE;i < BASE + NUM;i++)
+  {
+    digitalWrite(i, LOW); //turn off LEDs 1 by 1
+    delay(200); //wait for 0.2 second
+  }
+  for(int i = BASE;i < BASE + NUM;i++)
+  {
+    digitalWrite(i, HIGH); //turn on LEDs 1 by 1
+    delay(200); //wait for 0.2 second
+  }
+}
+```
+### Video :
+
+<iframe width="352" height="240"
+src="https://user-images.githubusercontent.com/86108610/146650723-146145fe-2956-4c80-bba8-c3832f78bdc2.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+### Experience :
+_Tried to reduce the number of resistors used and I think it made the wiring a bit complicated. Eventhough it worked without any issues_
 
