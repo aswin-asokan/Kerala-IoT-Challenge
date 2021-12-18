@@ -1,5 +1,3 @@
-## Kerala IoT Challenge
-
 ### About Kerala IoT Challenge
 
 __Foxlab Makerspace__ in association with __GTech - Group of Technology Companies in Kerala__ launched the prestigious program __“Kerala IoT Challenge 2021”__, embracing the vision of 5000 IoT-enabled students from Kerala, hosting on the µLearn platform.   
