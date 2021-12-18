@@ -28,7 +28,7 @@ void loop() {
 
 ### Video :
 
-<iframe min-width="320" min-height="240" max-width="854" max-height="480"
+<iframe max-width="854" max-height="480"
 src="https://user-images.githubusercontent.com/86108610/146636287-d307cc4a-e22b-4290-9088-4a1bad826210.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
