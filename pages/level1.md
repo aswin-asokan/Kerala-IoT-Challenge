@@ -28,7 +28,7 @@ void loop() {
 
 ### Video :
 
-<iframe width="2048px" height="1536px"
+<iframe width="854px" height="480px"
 src="https://user-images.githubusercontent.com/86108610/146636287-d307cc4a-e22b-4290-9088-4a1bad826210.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -41,3 +41,12 @@ _Even though it was just a basic experiment I was excited to do it as it was my 
 ### Experiment 2 : Traffic Light
 _Similar to experiment 1 but here we use 3 LEDs instead of 1 to implement a traffic light_   
 ### Components Required:
+
+* Arduino board *1
+* USB cable *1
+* Red M5 LED*1
+* Yellow M5 LED*1
+* Green M5 LED*1
+* 220Ω resistor 
+* Breadboard*1
+* Breadboard jumper wires
