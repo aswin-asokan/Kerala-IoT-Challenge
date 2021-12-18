@@ -28,7 +28,7 @@ void loop()
 ```
 
 ### Video :
-<video>
+<video width="854" height="480">
 <source src="https://user-images.githubusercontent.com/86108610/146636287-d307cc4a-e22b-4290-9088-4a1bad826210.mp4">
 </video>
 
