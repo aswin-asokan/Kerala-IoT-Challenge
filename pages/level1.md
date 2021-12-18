@@ -25,7 +25,6 @@ void loop()
   digitalWrite(ledpin,LOW);
   delay(1000);
 }
-
 ```
 
 ### Video :
