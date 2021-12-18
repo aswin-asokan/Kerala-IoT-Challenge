@@ -10,16 +10,14 @@ _This is just a basic arduino experiment to blink a LED with a time interval of 
 * Jumper Wires (Male to Male ) X 2 Nos
 ### Circuit Diagram :
 ![Expriment 1](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit1.png)
-### Code :   
+### Code :
 ```ino
 #define ledpin 10
-void setup() 
-{ 
+void setup() { 
   pinMode(ledpin,OUTPUT);
 }
 
-void loop() 
-{
+void loop() {
   digitalWrite(ledpin,HIGH);
   delay(1000);
   digitalWrite(ledpin,LOW);
@@ -29,7 +27,7 @@ void loop()
 
 ### Video :
 
-<iframe width="320" height="240"
+<iframe width="480" height="360"
 src="https://user-images.githubusercontent.com/86108610/146636287-d307cc4a-e22b-4290-9088-4a1bad826210.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
