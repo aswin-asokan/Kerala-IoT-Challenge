@@ -38,7 +38,7 @@ allowfullscreen></iframe>
 _Even though it was just a basic experiment I was excited to do it as it was my first ever hands-on experience using Arduino. It was cool and made me more interested in working with it._
 
 
-### Experiment 2 : Traffic Light
+## Experiment 2 : Traffic Light
 _Similar to experiment 1 but here we use 3 LEDs instead of 1 to implement a traffic light_   
 ### Components Required:
 * Arduino board 
@@ -85,3 +85,12 @@ void loop()
   digitalWrite(greenLED, LOW);//turn off green LED
 }
 ```
+### Video :
+
+<iframe width="352" height="240"
+src="https://user-images.githubusercontent.com/86108610/146646359-c767ce5a-3f04-4c28-bc8e-ce322555bd8f.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
