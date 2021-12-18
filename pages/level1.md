@@ -9,9 +9,9 @@ _This is just a basic arduino experiment to blink a LED with a time interval of 
 * Breadboard
 * Jumper Wires (Male to Male ) X 2 Nos
 ### Circuit Diagram :
-![Expriment 1](https://github.com/aswin-asokan/Kerala-IoT-Challenge/blob/gh-pages/files/level1/images/Circuit1.png)
+![Expriment 1](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit1.png)
 ### Code :   
-```rubi
+```
 #define ledpin 10
 void setup() 
 { 
@@ -26,6 +26,7 @@ void loop()
   delay(1000);
 }
 ```
+
 ### Video :
 
 https://user-images.githubusercontent.com/86108610/146634813-d5ccfed4-fc31-450e-bf18-4786cc146b18.mp4
