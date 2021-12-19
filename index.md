@@ -6,7 +6,7 @@ __Kerala IoT Challenge__ is a program designed in 4 levels followed by a hackath
 
 ### About Me
 
-Hi everyone, I'm Aswin Asokan. I'm pursuing my diploma in computer engineering from the Government Polytechnic Kalamassery. I'm here to improve what I know and also to explore the vast implementation of IoT-based products.
+Hi everyone, I'm Aswin Asokan. I'm pursuing my diploma in computer engineering from the Government Polytechnic College Kalamassery. I'm here to improve what I know and also to explore the vast implementation of IoT-based products.
 
 ### Documentations
 * [Level 1 ](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1)
