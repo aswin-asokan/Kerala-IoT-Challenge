@@ -395,11 +395,28 @@ _LM35 is a type of commonly used temperature sensor, that can be used to measure
 
 #### LM35 fig :
 ![LM35](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/lm35.png)
-| Pin Number | Pin Name | Description |
-| ---------- | -------- | ----------- |
-| 1 |	Vcc	| Input voltage is +5V for typical applications |
-| 2 |Analog Out	|There will be increase in 10mV for raise of every 1°C. Can range from -1V(-55°C) to 6V(150°C) |
-| 3 |Ground	| Connected to ground of circuit |
+<table>
+  <tr>
+    <th>Pin Number</th>
+    <th>Pin Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Vcc</td>
+    <td>Input voltage is +5V for typical applications</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Analog Out</td>
+    <td>There will be increase in 10mV for raise of every 1°C. Can range from -1V(-55°C) to 6V(150°C)</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ground</td>
+    <td>Connected to ground of circuit</td>
+  </tr>
+</table>
 
 ### Components Used :
 * Arduino Uno  Board
@@ -434,6 +451,6 @@ delay(500);// wait for 0.5 second
 
 ### Pictures : 
 _Connected Circuit :_   
-![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.jpg)
+![circuit](https://github.com/aswin-asokan/Kerala-IoT-Challenge/blob/gh-pages/files/level1/images/EXP9.jpg)
 _Serial Monitor Output :_    
 ![Output](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.png)
