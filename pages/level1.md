@@ -7,6 +7,8 @@
 5. [Buzzer](#buzzer)
 6. [RGB LED](#rgb)
 7. [LDR Light Sensor](#ldr)
+8. [Flame Sensor](#flame)
+9. [LM35 Temperature Sensor](#lm35)
 ## Experiment 1 : Hello World LED Blinking<a name="blink"></a>
 _This is just a basic arduino experiment to blink a LED with a time interval of 1 second._
 ### Components Used :   
@@ -205,7 +207,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ## Experiment 5 : Buzzer<a name="buzzer"></a>
-_This experiment is done inorder to understand the functioning of a buzzer usin Arduino_
+_This experiment is done inorder to understand the functioning of a buzzer using Arduino_
 ### Components Used :   
 * Arduino Uno
 * Buzzer x 1
@@ -249,7 +251,7 @@ _An RGB LED bulb uses three diodes in Red, Green and Blue. These are mixed in di
 * Breadboard jumper wire x 5
 
 ### Circuit :
-![Expriment 5](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit6.png)
+![Expriment 6](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit6.png)
 
 ### Code :
 ```
@@ -291,3 +293,103 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ## Experiment 7 : LDR Light Sensor<a name="ldr"></a>
+_LDRs (light-dependent resistors) are used to detect light levels, for example, in automatic security lights. Their resistance decreases as the light intensity increases: in the dark and at low light levels, the resistance of an LDR is high and little current can flow through it. Here we use a LDR sensor to detect light and make a LED work according to the data got from the sensor._
+
+### Components Used :
+* Arduino Uno Board
+* Photo Resistor x 1
+* Green M5 LED x 1
+* 10KΩ Resistor x 1
+* 220Ω Resistor x 1
+* Breadboard x 1
+* Breadboard Jumper Wire x 5
+* USB cable x 1
+
+### Circuit :
+![Expriment 7](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit_7.png)
+
+### Code :
+```
+int potpin=0;// initialize analog pin 0, connected with photovaristor
+int ledpin=11;// initialize digital pin 11, 
+int val=0;// initialize variable val
+void setup()
+{
+pinMode(ledpin,OUTPUT);// set digital pin 11 as “output”
+Serial.begin(9600);// set baud rate at “9600”
+}
+void loop()
+{
+val=analogRead(potpin);// read the value of the sensor and assign it to val
+Serial.println(val);// display the value of val
+analogWrite(ledpin,val/4);// set up brightness（maximum value 255）
+delay(10);// wait for 0.01 
+}
+```
+
+### Video :
+<iframe width="352" height="240"
+src=""
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+## Experiment 8 : Flame Sensor<a name="flame"></a>
+_Here we use an Infrared Receiver (IR) to detect flame. A buzzer is included to make sound in case of flame._
+
+### Components Used :
+* Arduino Uno Board
+* Flame Sensor x 1
+* Buzzer x 1
+* 10KΩ Resistor x 1
+* Breadboard Jumper Wire x 6
+* USB cable x 1
+
+### Circuit : 
+![Expriment 8](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit8.png)
+
+### Code : 
+```
+int flame=0;// select analog pin 0 for the sensor
+int Beep=9;// select digital pin 9 for the buzzer
+int val=0;// initialize variable
+ void setup() 
+{
+  pinMode(Beep,OUTPUT);// set LED pin as “output”
+ pinMode(flame,INPUT);// set buzzer pin as “input”
+ Serial.begin(9600);// set baud rate at “9600”
+ } 
+void loop() 
+{ 
+  val=analogRead(flame);// read the analog value of the sensor 
+  Serial.println(val);// output and display the analog value
+  if(val>=600)// when the analog value is larger than 600, the buzzer will buzz
+  {  
+    digitalWrite(Beep,HIGH); 
+  }
+  else 
+  {  
+    digitalWrite(Beep,LOW); 
+  }
+   delay(500); 
+}
+```
+
+### Video :
+
+<iframe width="352" height="240"
+src=""
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+## Experiment 9 : LM35 Temperature Sensor<a name="lm35"></a>
+_LM35 is a type of commonly used temperature sensor, that can be used to measure temperature with an electrical output comparative to the temperature in (°C). It can measure temperature in a better way than thermistor. It has an accuracy of ±1/4°C. The output temperature is 0℃～100℃, the conversion formula is as follows:_
+[!Equation](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/equation.png)
+#### LM35 fig :
+[!LM35](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/lm35.png)
+| Pin Number | Pin Name | Description |
+| ---------- | -------- | ----------- |
+| 1 |	Vcc	| Input voltage is +5V for typical applications |
+| 2 |Analog Out	|There will be increase in 10mV for raise of every 1°C. Can range from -1V(-55°C) to 6V(150°C) |
+| 3 |Ground	| Connected to ground of circuit |
