@@ -333,7 +333,7 @@ delay(10);// wait for 0.01
 
 ### Video :
 <iframe width="352" height="240"
-src=""
+src="https://user-images.githubusercontent.com/86108610/147466800-e9d8d7ce-91c4-4cbe-a895-921e4d9c2189.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
@@ -353,6 +353,7 @@ _Here we use an Infrared Receiver (IR) to detect flame. A buzzer is included to 
 ![Expriment 8](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit8.png)
 
 ### Code : 
+
 ```
 int flame=0;// select analog pin 0 for the sensor
 int Beep=9;// select digital pin 9 for the buzzer
@@ -382,7 +383,7 @@ void loop()
 ### Video :
 
 <iframe width="352" height="240"
-src=""
+src="https://user-images.githubusercontent.com/86108610/147467357-d8e205d2-56ba-45c9-be55-bee62b6ac1fc.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
@@ -407,5 +408,32 @@ _LM35 is a type of commonly used temperature sensor, that can be used to measure
 * Breadboard Jumper Wire x 3
 * USB cable
 
-### Circuit Used :
+### Circuit :
 ![LM35](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit9.png)
+
+### Code :
+
+```
+int potPin = 0; // initialize analog pin 0 for LM35 temperature sensor
+void setup()
+{
+Serial.begin(9600);// set baud rate at”9600”
+}
+void loop()
+{
+int val;// define variable
+int dat;// define variable
+val=analogRead(0);// read the analog value of the sensor and assign it to val
+dat=(125*val)>>8;// temperature calculation formula
+Serial.print("Tep");// output and display characters beginning with Tep
+Serial.print(dat);// output and display value of dat
+Serial.println("C");// display “C” characters
+delay(500);// wait for 0.5 second
+}
+```
+
+### Pictures : 
+_Connected Circuit :_   
+![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.jpg)
+_Serial Monitor Output :_    
+![Output](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.png)
