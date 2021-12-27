@@ -242,7 +242,11 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ## Experiment 6 : RGB LED<a name="rgb"></a>
-_An RGB LED bulb uses three diodes in Red, Green and Blue. These are mixed in different intensities to produce a variety of different colours. This experiment is done to produce such colours_
+_An RGB LED bulb uses three diodes in Red, Green and Blue. These are mixed in different intensities to produce a variety of different colours. As mentioned earlier, RGB LEDs have three LEDs inside them and usually, these three internal LEDs share either a common anode or a common cathode especially in a through-hole package. So basically, we can categorize RGB LEDs as either common anode or common cathode type just like in seven segment displays. When you look at an RGB LED, you'll see that it has four leads. If you face it so that its longest lead is second from the left, the leads should be in the following order: red, anode or cathode, green, and blue._
+
+![RGB](https://github.com/aswin-asokan/Kerala-IoT-Challenge/blob/gh-pages/files/level1/images/RGB-LEDs-Pinout.png)
+
+_This experiment is done to produce different colours using RGB LED._
 ### Components Used :   
 * Arduino Uno
 * USB Cable x 1
@@ -306,7 +310,7 @@ _LDRs (light-dependent resistors) are used to detect light levels, for example, 
 * USB cable x 1
 
 ### Circuit :
-![Expriment 7](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit_7.png)
+![Expriment 7](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit7.png)
 
 ### Code :
 ```
@@ -384,12 +388,24 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ## Experiment 9 : LM35 Temperature Sensor<a name="lm35"></a>
-_LM35 is a type of commonly used temperature sensor, that can be used to measure temperature with an electrical output comparative to the temperature in (°C). It can measure temperature in a better way than thermistor. It has an accuracy of ±1/4°C. The output temperature is 0℃～100℃, the conversion formula is as follows:_
-[!Equation](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/equation.png)
+_LM35 is a type of commonly used temperature sensor, that can be used to measure temperature with an electrical output comparative to the temperature in (°C). It can measure temperature in a better way than thermistor. It has an accuracy of ±1/4°C. The output temperature is 0℃～100℃, the conversion formula is as follows:_   
+
+![Equation](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/equation.png)
+
 #### LM35 fig :
-[!LM35](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/lm35.png)
+![LM35](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/lm35.png)
 | Pin Number | Pin Name | Description |
 | ---------- | -------- | ----------- |
 | 1 |	Vcc	| Input voltage is +5V for typical applications |
 | 2 |Analog Out	|There will be increase in 10mV for raise of every 1°C. Can range from -1V(-55°C) to 6V(150°C) |
 | 3 |Ground	| Connected to ground of circuit |
+
+### Components Used :
+* Arduino Uno  Board
+* LM35 x 1
+* Breadboard x 1
+* Breadboard Jumper Wire x 3
+* USB cable
+
+### Circuit Used :
+![LM35](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit9.png)
