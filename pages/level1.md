@@ -425,9 +425,9 @@ int val;// define variable
 int dat;// define variable
 val=analogRead(0);// read the analog value of the sensor and assign it to val
 dat=(125*val)>>8;// temperature calculation formula
-Serial.print("Tep");// output and display characters beginning with Tep
+Serial.print("Temperature = ");// output and display characters beginning with "Temperature ="
 Serial.print(dat);// output and display value of dat
-Serial.println("C");// display “C” characters
+Serial.println("°C");// display “°C” characters
 delay(500);// wait for 0.5 second
 }
 ```
