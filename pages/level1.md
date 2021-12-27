@@ -4,6 +4,9 @@
 2. [Traffic Light](#traffic)
 3. [LED Chasing Effect](#chase)
 4. [Button Controlled LED](#button)
+5. [Buzzer](#buzzer)
+6. [RGB LED](#rgb)
+7. [LDR Light Sensor](#ldr)
 ## Experiment 1 : Hello World LED Blinking<a name="blink"></a>
 _This is just a basic arduino experiment to blink a LED with a time interval of 1 second._
 ### Components Used :   
@@ -200,3 +203,91 @@ src="https://user-images.githubusercontent.com/86108610/146938026-f2cbf63e-f626-
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
+
+## Experiment 5 : Buzzer<a name="buzzer"></a>
+_This experiment is done inorder to understand the functioning of a buzzer usin Arduino_
+### Components Used :   
+* Arduino Uno
+* Buzzer x 1
+* Breadboard x 1
+* Breadboard Jumper Wire x 2
+* USB cable x 1
+
+### Circuit :   
+![Expriment 5](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit5.png)
+
+### Code :
+
+```
+#define BUZZER 10
+void setup() 
+{
+  pinMode(BUZZER, OUTPUT);
+}
+
+void loop() 
+{
+  digitalWrite(BUZZER, HIGH);
+}
+```
+
+### Video :
+
+<iframe width="352" height="240"
+src="https://user-images.githubusercontent.com/86108610/147457180-3af26922-6c1f-4e46-8603-72dd087804b1.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+## Experiment 6 : RGB LED<a name="rgb"></a>
+_An RGB LED bulb uses three diodes in Red, Green and Blue. These are mixed in different intensities to produce a variety of different colours. This experiment is done to produce such colours_
+### Components Used :   
+* Arduino Uno
+* USB Cable x 1
+* RGB LED x 1
+* Resistor x 3
+* Breadboard jumper wire x 5
+
+### Circuit :
+![Expriment 5](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit6.png)
+
+### Code :
+```
+int red = 11; //select the pin for the red LED
+int green =10;// select the pin for the green LED
+int blue =9; // select the pin for the blue LED
+int val;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(val=255; val>0; val--)
+  {
+   analogWrite(red, val);
+   analogWrite(green, 255-val);
+   analogWrite(blue, 128-val);
+   delay(1); 
+  }
+for(val=0; val<255; val++)
+  {
+   analogWrite(red, val);
+   analogWrite(green, 255-val);
+   analogWrite(blue, 128-val);
+   delay(1); 
+  }
+ Serial.println(val, DEC);
+ ```
+ 
+### Video :
+
+<iframe width="352" height="240"
+src="https://user-images.githubusercontent.com/86108610/147458241-92faf061-572e-49bf-b704-1700ba4e9959.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+## Experiment 7 : LDR Light Sensor<a name="ldr"></a>
