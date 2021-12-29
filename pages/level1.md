@@ -244,7 +244,7 @@ allowfullscreen></iframe>
 ## Experiment 6 : RGB LED<a name="rgb"></a>
 _An RGB LED bulb uses three diodes in Red, Green and Blue. These are mixed in different intensities to produce a variety of different colours. As mentioned earlier, RGB LEDs have three LEDs inside them and usually, these three internal LEDs share either a common anode or a common cathode especially in a through-hole package. So basically, we can categorize RGB LEDs as either common anode or common cathode type just like in seven segment displays. When you look at an RGB LED, you'll see that it has four leads. If you face it so that its longest lead is second from the left, the leads should be in the following order: red, anode or cathode, green, and blue._
 
-![RGB](https://github.com/aswin-asokan/Kerala-IoT-Challenge/blob/gh-pages/files/level1/images/RGB-LEDs-Pinout.png)
+![RGB-LEDs-Pinout](https://user-images.githubusercontent.com/86108610/147626886-f1b4e030-0de5-4363-a1f1-65b264914e83.png)
 
 _This experiment is done to produce different colours using RGB LED._
 ### Components Used :   
@@ -451,6 +451,7 @@ delay(500);// wait for 0.5 second
 
 ### Pictures : 
 _Connected Circuit :_   
-![circuit](https://github.com/aswin-asokan/Kerala-IoT-Challenge/blob/gh-pages/files/level1/images/EXP9.jpg)
+![EXP9](https://user-images.githubusercontent.com/86108610/147627049-75d8a992-dcad-41c2-a1ab-1e9642c02404.png)
+
 _Serial Monitor Output :_    
 ![Output](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.png)
