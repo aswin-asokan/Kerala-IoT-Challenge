@@ -470,6 +470,7 @@ _First we need to decode the IR remote codes. For this the given circuit is crea
 #### Circuit :
 ![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit10a.png)   
 #### Code :
+
 ```
 #include<IRremote.h>
 const int RECV_PIN = 12;
@@ -490,6 +491,7 @@ void loop()
   }
 }
 ```
+   
 #### Serial Monitor Output :
 ![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/serial.png)   
 _Ignore the FFFFFFFF   
@@ -510,6 +512,7 @@ Now coming back to the experiment_
 ![Circuit10](https://user-images.githubusercontent.com/86108610/147741039-9560fbb9-42db-4cf3-b7a4-507b1206c2ce.png)
 
 ### Code :
+
 ```
 #include<IRremote.h>
 const int RECV_PIN = 12;
@@ -551,8 +554,9 @@ void loop()
   }
 }
 ```
+   
 ### Video :
-<iframe width="352" height="240"
+<iframe
 src="https://user-images.githubusercontent.com/86108610/147739818-64205604-c010-40af-8b88-065ce9361bc0.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -562,4 +566,4 @@ allowfullscreen></iframe>
 ![EXP10](https://user-images.githubusercontent.com/86108610/147740626-b9ac88f1-97b8-4812-8ed2-44471691a6c3.png)
    
 ### Experience :
-_The given code did not work for me so I refered to the [**Video**](https://www.youtube.com/watch?v=8E3ltjnbV0c) given in Mulearn platform. Also, I refered to the [**Video**](https://www.youtube.com/watch?v=FRhzuWl39qg) by [**Sci-COPATH**](https://www.youtube.com/channel/UCeATKlkbBC8xT7r8hmK26EQ) to understand array and made a code myself._
+_The given code in Mulearn platform did not work for me so I refered to the [**Video**](https://www.youtube.com/watch?v=8E3ltjnbV0c) given. Also, I refered to the [**Video**](https://www.youtube.com/watch?v=FRhzuWl39qg) by [**Sci-COPATH**](https://www.youtube.com/channel/UCeATKlkbBC8xT7r8hmK26EQ) to understand array and made a code myself._
