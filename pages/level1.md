@@ -10,6 +10,7 @@
 8. [Flame Sensor](#flame)
 9. [LM35 Temperature Sensor](#lm35)
 10. [IR Remote Control Using TSOP](#remote)
+11.  [Potentiometer analog Value Reading](#potentiometer)
 ## Experiment 1 : Hello World LED Blinking<a name="blink"></a>
 _This is just a basic arduino experiment to blink a LED with a time interval of 1 second._
 ### Components Used :   
@@ -567,3 +568,40 @@ allowfullscreen></iframe>
    
 ### Experience :
 _The given code in Mulearn platform did not work for me so I refered to the [**Video**](https://www.youtube.com/watch?v=8E3ltjnbV0c) given. Also, I refered to the [**Video**](https://www.youtube.com/watch?v=FRhzuWl39qg) by [**Sci-COPATH**](https://www.youtube.com/channel/UCeATKlkbBC8xT7r8hmK26EQ) to understand array and made a code myself._
+
+## Experiment 11 : Potentiometer analog Value Reading<a name="potentiometer"></a>
+
+_In this experiment we are reading value(Analog Value) from a Potentiometer and use it to light a LED accordingly. A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. It acts as a variable resistor_   
+![potentiometer](https://user-images.githubusercontent.com/86108610/147745703-0dd92d81-3967-4485-b06d-a40187044ce7.png)
+
+### Circuit :
+![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit11.png)  
+
+### Code :
+
+```
+int potpin=0;
+int ledpin=11;
+int val=0;
+int ledval=0;
+void setup()
+{
+pinMode(ledpin,OUTPUT);
+Serial.begin(9600);
+}
+void loop()
+{
+val=analogRead(potpin);
+Serial.println(val);
+ledval=map(val,0,1023,0,255);
+analogWrite(ledpin, ledval);
+}
+```    
+_Visit [**map()**](https://www.arduino.cc/reference/en/language/functions/math/map/) to refer more about it._
+### Video :
+
+<iframe width="352" height="240"
+src=""
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
