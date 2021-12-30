@@ -518,7 +518,7 @@ Now coming back to the experiment_
 const int RECV_PIN = 12;
 int LED[6]={7,6,5,4,3,2};
 int togglestate[6]={0,0,0,0,0,0};
-long remote[6]={0x1FE50AF,0x1FED827,0x1FEF807,0x1FE30CF,0x1FEB04F,0x1FE708F};
+long remote[6]={0x1FE50AF,0x1FED827,0x1FEF807,0x1FE30CF,0x1FEB04F,0x1FE708F};//change the values with codes yo got from your remote
 int i;
 IRrecv irrecv(RECV_PIN);
 decode_results results;
@@ -556,8 +556,8 @@ void loop()
 ```
    
 ### Video :
-<iframe
-src="https://user-images.githubusercontent.com/86108610/147739818-64205604-c010-40af-8b88-065ce9361bc0.mp4"
+<iframe width="352" height="240"
+src="https://user-images.githubusercontent.com/86108610/147742163-87ecdb39-4c5b-4aa9-bdd4-cc77e1cd27f6.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
