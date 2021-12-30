@@ -9,6 +9,7 @@
 7. [LDR Light Sensor](#ldr)
 8. [Flame Sensor](#flame)
 9. [LM35 Temperature Sensor](#lm35)
+10.[IR Remote Control Using TSOP](#remote)
 ## Experiment 1 : Hello World LED Blinking<a name="blink"></a>
 _This is just a basic arduino experiment to blink a LED with a time interval of 1 second._
 ### Components Used :   
@@ -111,10 +112,11 @@ allowfullscreen></iframe>
 ## Experiment 3 : LED Chasing Effect<a name="chase"></a>
 _In this experiment we create a program to simulate LED chasing effect_
 ### Components Used :   
-* LED Green x 3
-* LED Red x 3
+* LED Green x 2
+* LED Yellow x 2
+* LED Red x 2
 * Arduino board 
-* 220Ω resistor x 2
+* 220Ω resistor x 6
 * Breadboard 
 * USB cable
 * Breadboard jumper wires
@@ -151,13 +153,10 @@ void loop()
 ### Video :
 
 <iframe width="352" height="240"
-src="https://user-images.githubusercontent.com/86108610/146650723-146145fe-2956-4c80-bba8-c3832f78bdc2.mp4"
+src="https://user-images.githubusercontent.com/86108610/147735511-5619be74-e8d5-4cbb-a545-58224536b7e1.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
-
-### Experience :
-_Tried to reduce the number of resistors used and I think it made the wiring a bit complicated. Eventhough it worked without any issues_
 
 ## Experiment 4 : Button Controlled LED<a name="button"></a>
 _In this experiment we use a button to control the LED_
@@ -455,3 +454,6 @@ _Connected Circuit :_
 
 _Serial Monitor Output :_    
 ![Output](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.png)
+
+## Experiment 10 : IR Remote Control Using TSOP<a name="remote"></a>
+
