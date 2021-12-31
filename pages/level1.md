@@ -613,7 +613,7 @@ allowfullscreen></iframe>
  _LED segment display is a semiconductor light-emitting device. Its basic unit is a light-emitting diode (LED). LED segment display can be divided into 7-segment display and 8-segment display according to the number of segments. 8-segment display has one more LED unit ( for decimal point display) than 7-segment one. In this experiment we use this to display numbers from zero to nine_   
 ![segment](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/segment.png)   
  
- ### Components :
+### Components :
  
 * Arduino Uno Board
 * 1-digit LED Segment Display x 1
@@ -622,10 +622,10 @@ allowfullscreen></iframe>
 * Breadboard Jumper Wires x several
 * USB cable
  
- ### Circuit :
- ![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit12.png)  
+### Circuit :
+![circuit](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/Circuit12.png)  
  
- ### Code :
+### Code :
  
  ```
  //define each pin
