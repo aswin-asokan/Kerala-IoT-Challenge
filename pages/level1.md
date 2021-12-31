@@ -597,14 +597,14 @@ _Visit [**map()**](https://www.arduino.cc/reference/en/language/functions/math/m
 ### Video :
 
 <iframe width="352" height="240"
-src=""
+src="https://user-images.githubusercontent.com/86108610/147812681-dfb825ae-3455-43f4-8906-28c9af9d4b7f.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>   
 
 _Serial Monitor Output :_  
 <iframe width="352" height="240"
-src=""
+src="https://user-images.githubusercontent.com/86108610/147812992-6f4937be-8cfa-4506-90a9-894d70c4e837.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>   
@@ -770,3 +770,10 @@ void loop()
 }
 ```
                         
+### Video :
+                        
+<iframe width="352" height="240"
+src="https://user-images.githubusercontent.com/86108610/147813069-6b1cde88-e364-41bc-8c6b-3a0502be1fb7.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe> 
