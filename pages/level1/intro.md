@@ -11,8 +11,9 @@ _You can just type the code,save and compile it in the IDE. To compile the progr
 ![Compilation](https://user-images.githubusercontent.com/86108610/148682544-972f7432-8e17-4a76-84eb-815d478e7e47.png)
  
 ## 3:
-_Now connect the arduino board to the system with a USB cable and select the port(Tools->Port->Serial Port). Click the right arrow button to upload the code to the board._   
-![Port](https://user-images.githubusercontent.com/86108610/148682719-672d6d19-cfe0-4d5f-8c9c-566923f2b1b3.png)
+_Now connect the arduino board to the system with a USB cable and select the port(Tools->Port->Serial Port)._      
+![Port](https://user-images.githubusercontent.com/86108610/148682719-672d6d19-cfe0-4d5f-8c9c-566923f2b1b3.png)   
+_Click the right arrow button to upload the code to the board._   
 ![Upload](https://user-images.githubusercontent.com/86108610/148682738-77d59bc9-15c8-401c-80b0-c0742fa93ffe.png)
 
 _The circuit will now work according to code uploaded._   
