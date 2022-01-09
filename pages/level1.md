@@ -12,7 +12,7 @@
 10. [IR Remote Control Using TSOP](#remote)
 11.  [Potentiometer analog Value Reading](#potentiometer)
 12.  [7 Segment Display](#segment)
-## Experiment 1 : Hello World LED Blinking<a name="blink"></a>
+## <a name="blink"></a>Experiment 1 : Hello World LED Blinking
 _This is just a basic arduino experiment to blink a LED with a time interval of 1 second._
 ### Components Used :   
 * Arduino Uno Board
@@ -51,7 +51,7 @@ allowfullscreen></iframe>
 
 _Even though it was just a basic experiment I was excited to do it as it was my first ever hands-on experience using Arduino. It was cool and made me more interested in working with it._   
 
-## Experiment 2 : Traffic Light<a name="traffic"></a>
+## <a name="traffic"></a>Experiment 2 : Traffic Light
 _Similar to experiment 1 but here we use 3 LEDs instead of 1 to implement a traffic light_   
 ### Components Used:
 * Arduino board 
@@ -109,7 +109,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-## Experiment 3 : LED Chasing Effect<a name="chase"></a>
+## <a name="chase"></a>Experiment 3 : LED Chasing Effect
 _In this experiment we create a program to simulate LED chasing effect_
 ### Components Used :   
 * LED Green x 2
@@ -158,7 +158,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-## Experiment 4 : Button Controlled LED<a name="button"></a>
+## <a name="button"></a>Experiment 4 : Button Controlled LED
 _In this experiment we use a button to control the LED_
 ### Components Used :   
 * Arduino Uno
@@ -205,7 +205,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-## Experiment 5 : Buzzer<a name="buzzer"></a>
+## <a name="buzzer"></a>Experiment 5 : Buzzer
 _This experiment is done inorder to understand the functioning of a buzzer using Arduino_
 ### Components Used :   
 * Arduino Uno
@@ -240,7 +240,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-## Experiment 6 : RGB LED<a name="rgb"></a>
+## <a name="rgb"></a>Experiment 6 : RGB LED
 _An RGB LED bulb uses three diodes in Red, Green and Blue. These are mixed in different intensities to produce a variety of different colours. As mentioned earlier, RGB LEDs have three LEDs inside them and usually, these three internal LEDs share either a common anode or a common cathode especially in a through-hole package. So basically, we can categorize RGB LEDs as either common anode or common cathode type just like in seven segment displays. When you look at an RGB LED, you'll see that it has four leads. If you face it so that its longest lead is second from the left, the leads should be in the following order: red, anode or cathode, green, and blue._
 
 ![RGB-LEDs-Pinout](https://user-images.githubusercontent.com/86108610/147626886-f1b4e030-0de5-4363-a1f1-65b264914e83.png)
@@ -296,7 +296,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-## Experiment 7 : LDR Light Sensor<a name="ldr"></a>
+## <a name="ldr"></a>Experiment 7 : LDR Light Sensor
 _LDRs (light-dependent resistors) are used to detect light levels, for example, in automatic security lights. Their resistance decreases as the light intensity increases: in the dark and at low light levels, the resistance of an LDR is high and little current can flow through it. Here we use a LDR sensor to detect light and make a LED work according to the data got from the sensor._
 
 ### Components Used :
@@ -338,7 +338,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-## Experiment 8 : Flame Sensor<a name="flame"></a>
+## <a name="flame"></a>Experiment 8 : Flame Sensor
 _Here we use an Infrared Receiver (IR) to detect flame. A buzzer is included to make sound in case of flame._
 
 ### Components Used :
@@ -388,7 +388,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-## Experiment 9 : LM35 Temperature Sensor<a name="lm35"></a>
+## <a name="lm35"></a>Experiment 9 : LM35 Temperature Sensor
 _LM35 is a type of commonly used temperature sensor, that can be used to measure temperature with an electrical output comparative to the temperature in (°C). It can measure temperature in a better way than thermistor. It has an accuracy of ±1/4°C. The output temperature is 0℃～100℃, the conversion formula is as follows:_   
 
 ![Equation](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/equation.png)
@@ -456,7 +456,7 @@ _Connected Circuit :_
 _Serial Monitor Output :_    
 ![Output](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.png)
 
-## Experiment 10 : IR Remote Control Using TSOP<a name="remote"></a>
+## <a name="remote"></a>Experiment 10 : IR Remote Control Using TSOP
 
 _An IR receiver can detect bursts of infrared light sent by a common remote controller (like for a television), and then output a pattern of high/low signals to a Propeller I/O pin. In this experiment we use a IR receiver to identify and respond to a remote_
 ### Pin Diagram :   
@@ -566,7 +566,7 @@ allowfullscreen></iframe>
 ### Picture :
 ![EXP10](https://user-images.githubusercontent.com/86108610/147740626-b9ac88f1-97b8-4812-8ed2-44471691a6c3.png)
 
-## Experiment 11 : Potentiometer analog Value Reading<a name="potentiometer"></a>
+## <a name="potentiometer"></a>Experiment 11 : Potentiometer analog Value Reading
 
 _In this experiment we are reading value(Analog Value) from a Potentiometer and use it to light a LED accordingly. A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. It acts as a variable resistor_   
 ![potentiometer](https://user-images.githubusercontent.com/86108610/147745703-0dd92d81-3967-4485-b06d-a40187044ce7.png)
@@ -608,9 +608,9 @@ _Serial Monitor Output :_
 src="https://user-images.githubusercontent.com/86108610/147812992-6f4937be-8cfa-4506-90a9-894d70c4e837.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>   
+allowfullscreen></iframe>     
 
-## Experiment 12 : 7 Segment Display<a name="segment"><a/>
+## <a name="segment"></a>Experiment 12 : 7 Segment Display
  _LED segment display is a semiconductor light-emitting device. Its basic unit is a light-emitting diode (LED). LED segment display can be divided into 7-segment display and 8-segment display according to the number of segments. 8-segment display has one more LED unit ( for decimal point display) than 7-segment one. In this experiment we use this to display numbers from zero to nine_   
 ![segment](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/segment.png)   
  
