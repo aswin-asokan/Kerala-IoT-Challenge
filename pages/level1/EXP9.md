@@ -27,7 +27,14 @@ _LM35 is a type of commonly used temperature sensor, that can be used to measure
     <td>Ground</td>
     <td>Connected to ground of circuit</td>
   </tr>
-</table>
+</table>   
+
+
+__In Arduino 1023 corresponds to 5V.   
+Also 1V gives us 100 celcius. Hence, 5V gives 500 celcius.   
+Suppose we take 60 as the value from the sensor temperature will be Temperature = (60 * 500)/1023 = 29.32°C.   
+So equation will be Temperature = (value * 500)/1023__   
+_Refer this [video](https://www.youtube.com/watch?v=k099LBmwcgE) to learn more about LM35 sensor._   
 
 ### Components Used :
 * Arduino Uno  Board
@@ -43,21 +50,22 @@ _Connections are made according to the Circuit given_
 ### Code :
 
 ```
-int potPin = 0; // initialize analog pin 0 for LM35 temperature sensor
+#define TEMP A0
+int val;
+float temp;
 void setup()
 {
-Serial.begin(9600);// set baud rate at”9600”
+  pinMode(TEMP,INPUT);
+  Serial.begin(9600);
 }
 void loop()
 {
-int val;// define variable
-int dat;// define variable
-val=analogRead(0);// read the analog value of the sensor and assign it to val
-dat=(125*val)>>8;// temperature calculation formula
-Serial.print("Temperature = ");// output and display characters beginning with "Temperature ="
-Serial.print(dat);// output and display value of dat
-Serial.println("°C");// display “°C” characters
-delay(500);// wait for 0.5 second
+  val=analogRead(TEMP);
+  temp=(val*500)/1023;//equation for finding temperature
+  Serial.print("Temperature = ");//prints Temperature =
+  Serial.print(temp);//prints value of temperature
+  Serial.println("°C");//prints °C
+  delay(1000);//pause for 1 second
 }
 ```
 
@@ -66,4 +74,5 @@ _Connected Circuit :_
 ![EXP9](https://user-images.githubusercontent.com/86108610/147627049-75d8a992-dcad-41c2-a1ab-1e9642c02404.png)
 
 _Serial Monitor Output :_    
-![Output](https://aswin-asokan.github.io/Kerala-IoT-Challenge/files/level1/images/EXP9.png)
+![Serial](https://user-images.githubusercontent.com/86108610/148737262-9ae9db30-83d3-4612-949e-853c02a327b4.png)
+
