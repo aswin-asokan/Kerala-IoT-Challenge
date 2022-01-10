@@ -16,73 +16,73 @@ _A __Resistor__ is a [passive electrical component](https://en.wikipedia.org/wik
   <tr>
     <td>Black</td>
     <td>0</td>
-    <td>x10<sup>0</sup></td>
+    <td>x1</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Brown</td>
     <td>1</td>
-    <td>x10<sup>1</sup></td>
+    <td>x10</td>
     <td>1%</td>
   </tr>
   <tr>
     <td>Red</td>
     <td>2</td>
-    <td>x10<sup>2</sup></td>
+    <td>x100</td>
     <td>2%</td>
   </tr>
   <tr>
     <td>Orange</td>
     <td>3</td>
-    <td>x10<sup>3</sup></td>
+    <td>x1K</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Yellow</td>
     <td>4</td>
-    <td>x10<sup>4</sup></td>
+    <td>x10K</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Green</td>
     <td>5</td>
-    <td>x10<sup>5</sup></td>
+    <td>x100K</td>
     <td>0.5%</td>
   </tr>
   <tr>
     <td>Blue</td>
     <td>6</td>
-    <td>x10<sup>6</sup></td>
+    <td>x1M</td>
     <td>0.25%</td>
   </tr>
   <tr>
     <td>Violet</td>
     <td>7</td>
-    <td>x10<sup>7</sup></td>
+    <td>x10M</td>
     <td>0.10%</td>
   </tr>
   <tr>
     <td>Gray</td>
     <td>8</td>
-    <td>x10<sup>8</sup></td>
+    <td>x100M</td>
     <td>0.05%</td>
   </tr>
   <tr>
     <td>White</td>
     <td>9</td>
-    <td>x10<sup>9</sup></td>
+    <td>x1G</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Gold</td>
     <td>-</td>
-    <td>x10<sup>-1</sup></td>
+    <td>x0.1</td>
     <td>5%</td>
   </tr>
   <tr>
     <td>Silver</td>
     <td>-</td>
-    <td>x10<sup>-2</sup></td>
+    <td>x0.01</td>
     <td>10%</td>
   </tr>
 </table>    
