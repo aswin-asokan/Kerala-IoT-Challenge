@@ -13,3 +13,5 @@
 11. [IR Remote Control Using TSOP](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/EXP10)
 12.  [Potentiometer analog Value Reading](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/EXP11)
 13.  [7 Segment Display](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/EXP12)
+14.  Assignmenr 1 :
+15.  [Assignment 2 : Digital Dice](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/Assignment2)
