@@ -7,7 +7,7 @@
  
 * Arduino Uno Board
 * 1-digit LED Segment Display x 1
-* 220Ω Resistor x 1
+* 220Ω Resistor x 8
 * Breadboard
 * Breadboard Jumper Wires x several
 * USB cable
