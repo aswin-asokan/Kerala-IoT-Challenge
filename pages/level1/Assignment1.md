@@ -1,4 +1,4 @@
-## Assignment 2 : Automatic Night Lamp   
+## Assignment 1 : Automatic Night Lamp   
 ### Description :   
  _Here we use a LDR to detect light and use it to make an automatic night lamp which turns on while there is no other light source available_   
  _To learn more about LDR visit [Experiment 7](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/EXP7)_
