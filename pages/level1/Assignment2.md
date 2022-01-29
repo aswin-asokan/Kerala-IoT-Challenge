@@ -5,7 +5,7 @@
  To learn more about 7 segment display visit __[Experiment 12](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/EXP12)___
  
  
-### Components :
+### Components Used :
  
 * Arduino Uno Board
 * Push button
