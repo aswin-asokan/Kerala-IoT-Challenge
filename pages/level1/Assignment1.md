@@ -71,4 +71,6 @@ _The output of this experiment would be like this :_
 src="https://user-images.githubusercontent.com/86108610/151673642-891aa520-1beb-462d-9e80-8eb41463f02b.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+allowfullscreen></iframe>      
+
+_Double click to view in full screen._
