@@ -24,7 +24,7 @@ _Connections are made according to the Circuit given_
 
 ### Construction of lamp :
 For the construction of body for the lamp, download and go through this PDF :   
-[Construction.pdf](https://github.com/aswin-asokan/Kerala-IoT-Challenge/files/7964354/Construction.pdf)
+[Construction.pdf](https://github.com/aswin-asokan/Kerala-IoT-Challenge/files/7965454/Construction.pdf)
 
 
 
