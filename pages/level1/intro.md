@@ -1,7 +1,7 @@
 # Introduction
 _This is an introduction for how to work using the Arduino IDE for the experiments._
 ### Software :
-_We use Arduino IDE for writing,compiling and uploading of arduino codes. You can download the latest IDE from [here](https://www.arduino.cc/en/software) for linux,windows and mac._   
+_We use Arduino IDE for writing,compiling and uploading the arduino codes. You can download the latest IDE from [here](https://www.arduino.cc/en/software) for linux,windows and mac._   
 ## 1:
 _The software interface would be like this_   
 ![interface](https://user-images.githubusercontent.com/86108610/148682385-360abc84-7c36-4309-ac6c-0f0632508f42.png)    
