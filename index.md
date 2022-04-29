@@ -10,6 +10,6 @@ Hi everyone, I'm Aswin Asokan. I'm pursuing my diploma in computer engineering f
 
 ### Documentations
 * [Level 1 ](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level1/level1)
-* Level 2
+* [Level 2 ](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/level2)
 * Level 3
 * Level 4
