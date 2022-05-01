@@ -57,39 +57,39 @@ I faced some issues while uploading the code. If you are facing similar errors t
 
 * Error 1 :   
 
-   ```
-   "exec: "python": executable file not found in $PATH
-   ```   
+  ```
+  "exec: "python": executable file not found in $PATH
+  ```   
 
-Type and run this in terminal :  
-   ```
-   sudo apt install python-is-python3
-   ```   
+  * Type and run this in terminal :  
+      ```
+      sudo apt install python-is-python3
+      ```   
 
 * Error 2 :    
 
-   ```
-   import serial ModuleNotFoundError: No module named 'serial' exit status 1 Error compiling for board ESP32 Dev Module.
-   ```    
+  ```
+  import serial ModuleNotFoundError: No module named 'serial' exit status 1 Error compiling for board ESP32 Dev Module.
+  ```    
 
-Fix :   
+  * Fix :   
 
-   ```
-   pip3 install pyserial
-   ```   
+      ```
+      pip3 install pyserial
+      ```   
 
 * Error 3 :   
 
-   ```
-   Cannot open /dev/ttyUSB0: Permission denied
-   ```   
+  ```
+  Cannot open /dev/ttyUSB0: Permission denied
+  ```   
 
-Fix :  
+  * Fix :  
 
-   ```
-   sudo usermod -a -G dialout <user_name>
-   sudo chmod a+rw /dev/ttyUSB0
-   ```   
+      ```
+      sudo usermod -a -G dialout <user_name>
+      sudo chmod a+rw /dev/ttyUSB0
+      ```   
    
 * Sites :
    * [Error 1](https://stackoverflow.com/questions/60762378/exec-python-executable-file-not-found-in-path)
