@@ -6,7 +6,9 @@ _For more details about the IDE check [here](https://aswin-asokan.github.io/Kera
 ## 1 :
 After installing the Arduino IDE select __File -> Preferences__. Paste the following link in __Additional Boards Manager URLs__ field :   
 
-```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```   
+```
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+```   
    
 ![SS1](https://user-images.githubusercontent.com/86108610/165939342-f3b99319-665d-4914-9393-5fdb5893711c.png)   
      
