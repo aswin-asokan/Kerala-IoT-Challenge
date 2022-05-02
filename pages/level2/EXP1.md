@@ -113,9 +113,4 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>  
 
-_For a detailed instruction you can see this video_
-<iframe width="352" height="240"
-src="https://www.youtube.com/watch?v=IKbbvEzZ7wg"
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+_For a detailed instruction you can see this [video](https://www.youtube.com/watch?v=IKbbvEzZ7wg)_
