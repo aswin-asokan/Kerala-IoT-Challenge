@@ -8,6 +8,7 @@ __Follow this [link](https://blynk.io/) and join Blynk and start off the experim
 * LED x 1 Nos
 * Breadboard
 * Micro USB Cable
+* Breadboard jumper wires   
 
 ### Step 1 :   
 After joining to blynk cloud you have to create a template for that follow the instructions.   
