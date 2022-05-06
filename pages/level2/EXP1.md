@@ -2,6 +2,13 @@
 ### Description :   
 Blynk is a new platform that allows you to quickly build interfaces for controlling and monitoring your hardware projects from your iOS and Android device.Here we are using the Blynk app to control a LED connected to ESP-32 from our system and phone.   
 __Follow this [link](https://blynk.io/) and join Blynk and start off the experiment.__   
+### Contents :  
+1. [Components Used](#components-used-)
+2. [Step 1](#step-1-)
+3. [Step 2](#step-2-)
+4. [Step 3](#step-3-)
+5. [Circuit Diagram](#circuit-diagram-)
+6. [Working](#working-)
 
 ### Components Used :      
 * ESP 32 board
