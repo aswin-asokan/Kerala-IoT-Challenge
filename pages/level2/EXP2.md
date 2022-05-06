@@ -109,7 +109,7 @@ src="https://user-images.githubusercontent.com/86108610/167199430-e658e57e-17b7-
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>  
-_As you can see the changes done in one device affects the other and I think the lag is due to the network issues._   
+_As you can see the changes done in one device affects the other and I think the lag in switching is due to the network issues._   
 
 For a detailed instruction visit :
 * [Video 1](https://www.youtube.com/watch?v=UFCmTZUoZ1M)
