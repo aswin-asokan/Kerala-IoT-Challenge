@@ -11,7 +11,7 @@ This is a similar experiment as the previous one. Here we use a soil moisture se
 
 ### Steps :   
 ### 1 : Create a variable   
-* Click on __Add Variable__ and create a variable named **sm_sensor**, make it as a **integer** variable with **read only** variable permission as we are only taking inputs.     
+* Click on __Add Variable__ and create a variable named **sm_sensor**, make it as **integer** with **read only** variable permission as we are only taking inputs.     
 ![soilmoisture](https://user-images.githubusercontent.com/86108610/171215541-328e0a9b-2a62-486d-a202-ec11fc4939c9.png)   
 
 ### 2 : Code   
