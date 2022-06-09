@@ -87,7 +87,7 @@ You can either build an apk for the app and install it in your phone or connect 
 
 You will get a pop up with a QR code in both the options scan it with companion app to use it or to download it.
 
-### 5 : Using the app   
+### 5 : Connecting to the app   
 Pair your ESP32 with your phone via Bluetooth and connect it through the MIT app to control the board.   
 
 ### Circuit Diagram :   
