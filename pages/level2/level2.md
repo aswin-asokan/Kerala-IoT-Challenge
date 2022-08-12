@@ -1,5 +1,6 @@
 # Kerala IoT Challenge Level 2
 ## Table of Contents
+
 1. [Setting up the Arduino IDE for ESP-32](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/intro)
 2. [Experiment 1 : Hello World LED Program Using Blynk App](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP1)
 3. [Experiment 2 : LED Control Using Arduino IoT Cloud](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP2)
@@ -8,5 +9,5 @@
 6. [Experiment 5 : Ultrasonic Sensor](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP5)
 7. [Experiment 6 : Object Detection using IR Sensor](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP6)
 8. [Experiment 7 : MIT App Inventor + ESP 32](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP7)
-9. [Experiment 8 : MIT App Inventor - Bidirectional Communication](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP8)   
-10.[Experiment 8 : MIT App Inventor - Creating a Reliable Communication](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP9)   
+9. [Experiment 8 : MIT App Inventor - Bidirectional Communication](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP8)
+10. [Experiment 8 : MIT App Inventor - Creating a Reliable Communication](https://aswin-asokan.github.io/Kerala-IoT-Challenge/pages/level2/EXP9)
