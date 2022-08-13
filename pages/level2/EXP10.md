@@ -1,4 +1,4 @@
-## Experiment 8 : ESP32 + Firebase
+## Experiment 10 : ESP32 + Firebase
 
 ### Description :   
 Firebase is a platform developed by Google for creating mobile and web applications. In this experiment we use the ESP32 to connect and interact with a Firebase project, and create a realtime database to show the value from a potentiometer.
