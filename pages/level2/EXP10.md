@@ -73,7 +73,7 @@ After this step  the Firebase is configured, we can now move to the coding part.
   ![arduino2](https://user-images.githubusercontent.com/86108610/184469989-d3eeeda5-9ed3-4d33-b499-d94795ffa513.png)
 
  2. Now type and upload the code to ESP32,   
- #### Code :   
+ __Code :__   
  
  ```
   #include <WiFi.h>
@@ -152,7 +152,7 @@ After this step  the Firebase is configured, we can now move to the coding part.
 
 Adjust the Potentiometer and observe the change of value in the realtime database.   
 <iframe width="352" height="240"
-src="Uploading Potentiometer.mp4…"
+src="https://user-images.githubusercontent.com/86108610/184470694-7e26d878-c2ec-4ee8-ac0e-683b52968bf0.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>  
